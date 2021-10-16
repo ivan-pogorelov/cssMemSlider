@@ -129,7 +129,7 @@ body {
 #slide2:checked ~ .wrapper-controls #bullets label:nth-child(2),
 #slide3:checked ~ .wrapper-controls #bullets label:nth-child(3),
 #slide4:checked ~ .wrapper-controls #bullets label:nth-child(4) {
-  background: #444;
+  background: #6c757d;
 }
 
 #slide1:checked ~ .wrapper-controls #bullets label:nth-child(1) .btn__control,
@@ -138,6 +138,14 @@ body {
 #slide4:checked ~ .wrapper-controls #bullets label:nth-child(4) .btn__control
 {
   border-color: red;
+}
+
+#bullets label:nth-child(1):hover .btn__control,
+#bullets label:nth-child(2):hover .btn__control,
+#bullets label:nth-child(3):hover .btn__control,
+#bullets label:nth-child(4):hover .btn__control {
+  border-color: #343a40;
+  transition: .3s;
 }
 
 #slide1:checked ~ .wrapper-controls #bullets label:nth-child(1):hover,
