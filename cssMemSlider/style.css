@@ -108,25 +108,36 @@ body {
 }
 #bullets label {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background: #f8f9fa;
-  padding: 1px;
-  margin: 0 10px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 18px 6px rgba(34, 60, 80, 0.32) inset;
+  border-radius: 30%;
+}
+
+.btn__control {
+  display: inline-block;
+  border: 6px solid white;
+  border-radius: 50%;
 }
 
 #bullets label:hover {
-  background-color: #343a40;
+  background-color: #a2a392;
   transition: .3s;
 }
-
 
 #slide1:checked ~ .wrapper-controls #bullets label:nth-child(1),
 #slide2:checked ~ .wrapper-controls #bullets label:nth-child(2),
 #slide3:checked ~ .wrapper-controls #bullets label:nth-child(3),
 #slide4:checked ~ .wrapper-controls #bullets label:nth-child(4) {
   background: #444;
+}
+
+#slide1:checked ~ .wrapper-controls #bullets label:nth-child(1) .btn__control,
+#slide2:checked ~ .wrapper-controls #bullets label:nth-child(2) .btn__control,
+#slide3:checked ~ .wrapper-controls #bullets label:nth-child(3) .btn__control,
+#slide4:checked ~ .wrapper-controls #bullets label:nth-child(4) .btn__control
+{
+  border-color: red;
 }
 
 #slide1:checked ~ .wrapper-controls #bullets label:nth-child(1):hover,
