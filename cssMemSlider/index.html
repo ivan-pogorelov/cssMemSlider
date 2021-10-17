@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cssMemSlider</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked />
+            <input type="radio" name="slider" id="slide2" />
+            <input type="radio" name="slider" id="slide3" />
+            <input type="radio" name="slider" id="slide4" />
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <div class="slider-1"></div>
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <div class="slider-2"></div>
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <div class="slider-3"></div>
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <div class="slider-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-controls">
+                <div id="descriptions">
+                    <div id="overflow">
+                        <div class="inner">
+                            <label class="description" for="slide1">Mem 1</label>
+                            <label class="description" for="slide2">Mem 2</label>
+                            <label class="description" for="slide3">Mem 3</label>
+                            <label class="description" for="slide4">Mem 4</label>
+                        </div>
+                    </div>
+                </div>
+                <div id="bullets">
+                    <div class="bullets__btn">
+                    <label for="slide1">
+                        <span class="btn__control"></span>
+                    </label>
+                    <label for="slide2">
+                        <span class="btn__control"></span>
+                    </label>
+                    <label for="slide3">
+                        <span class="btn__control"></span>
+                    </label>
+                    <label for="slide4">
+                        <span class="btn__control"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
