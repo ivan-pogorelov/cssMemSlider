@@ -1,1 +1,1 @@
-# cssMemSlider
+https://ivan-pogorelov.github.io/cssMemSlider/cssMemSlider/index.html  
